@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CopyToClipboardButton</title>
+    <!-- Other meta tags and styles -->
+</head>
+<style>
+  code {border: 1px solid #777; padding: 20px; width: 100%; display: block; }
+</style>
+<script>
+function copyToClipboard() {
+  const mydata = document.getElementById("codebox1").innerHTML;
+  const copybtn1 = document.getElementById("copybtn1");
+  const preserver = document.createElement("textarea");
+  preserver.innerHTML = mydata;
+  navigator.clipboard.writeText(preserver.value);
+  copybtn1.innerHTML += " &check;";
+}
+</script>
+</head>
+
+<body>
+  <code id="codebox1">&lt;div&gt;Hello Ladies!&lt;/div&gt;</code>
+  <button id="copybtn1" onclick="copyToClipboard()">Copy to Clipboard</button>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CopyToClipboardButton</title>
+  <!-- Other meta tags and styles -->
+</head>
+<style>
+  code {border: 1px solid #777; padding: 20px; width: 100%; display: block; }
+</style>
+<script>
+function copyToClipboard() {
+  const mydata = document.getElementById("text1").value;
+  const copybtn1 = document.getElementById("copybtn1");
+  const preserver = document.createElement("textarea");
+  preserver.innerHTML = mydata;
+  navigator.clipboard.writeText(preserver.value);
+  copybtn1.innerHTML += " &check;";
+}
+</script>
+</head>
+
+<body>
+  <code id="codebox1">&lt;div&gt;Hello Ladies!&lt;/div&gt;</code>
+  <button id="copybtn1" onclick="copyToClipboard()">Copy to Clipboard</button>
+  <textarea id="text1">Hello World 2</textarea>
+  <br>
+  <button id="copybtn2" onclick="copyToClipboard()">Copy to Clipboard</button>
+  <br>
+</body>
+</html>
