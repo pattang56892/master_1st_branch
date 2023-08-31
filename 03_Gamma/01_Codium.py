@@ -33,6 +33,6 @@ print(pi)  # Output: 3.1415926535897932384626433832795028841971693993751
 
 import mpmath
 
-mpmath.mp.dps = 1000  # Set the number of decimal places
+mpmath.mp.dps = 10000  # Set the number of decimal places
 pi = mpmath.pi
 print(pi)
