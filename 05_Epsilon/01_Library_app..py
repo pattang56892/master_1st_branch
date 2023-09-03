@@ -62,7 +62,7 @@ def index():
         books = user.books
         return render_template('library.html', books=books)
     else:
-    return redirect(url_for('index'))
+        return redirect(url_for('login'))
 
 # Implement other routes for registration, login, logout, etc.
 
