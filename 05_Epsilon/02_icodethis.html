@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Include the Tailwind CSS CDN -->
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+
+    <style>
+        /* Custom CSS styles */
+
+        /* Background color */
+        body {
+            background-color: #181028;
+        }
+
+        /* Container styles */
+        .container {
+            background-color: #ffffff;
+            color: #181028;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 0.5rem;
+            max-width: 28rem;
+        }
+
+        /* Logo styles */
+        .logo {
+            width: 11rem;
+        }
+
+        /* Text styles */
+        .text-lg {
+            font-size: 1.125rem;
+        }
+
+        .text-2xl {
+            font-size: 1.5rem;
+        }
+
+        .text-sm {
+            font-size: 0.875rem;
+        }
+
+        /* Link styles */
+        .underline {
+            text-decoration: underline;
+        }
+
+        /* Flex container styles */
+        .flex {
+            display: flex;
+        }
+
+        .justify-center {
+            justify-content: center;
+        }
+
+        .items-center {
+            align-items: center;
+        }
+
+        .gap-2 > * + * {
+            margin-left: 0.5rem;
+        }
+
+        /* SVG icon styles */
+        svg {
+            width: 1.125rem;
+            height: 1.125rem;
+            stroke-width: 3;
+            stroke: currentColor;
+            fill: none;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        /* Border styles */
+        .border-t {
+            border-top-width: 1px;
+            border-color: currentColor;
+        }
+
+        /* Padding styles */
+        .pt-6 {
+            padding-top: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container flex justify-center items-center min-h-screen">
+        <div class="bg-white text-[#181028] p-8 space-y-4 shadow-lg rounded-xl max-w-md md:max-w-lg">
+            <img class="logo" src="/long-light.png" alt="Logo">
+
+            <p class="text-lg">Transform the design (bottom-right) into a functional project using HTML and CSS.</p>
+
+            <h2 class="text-2xl">Want to go the extra mile?</h2>
+            <ul class="list-disc pl-6">
+                <li>Add animations and make the project interactive using JavaScript! 😎</li>
+                <li>Prioritize creativity over pixel-perfect accuracy and showcase your developer ingenuity.</li>
+            </ul>
+
+            <p>
+                The most creative projects will be showcased on our <a class="underline font-medium" href="/featured" target="_blank">featured page</a> and on your profile.
+            </p>
+
+            <p class="text-sm border-t pt-6">This example uses TailwindCSS by adding the CDN in the head tag. You can import any libraries you want using a CDN.</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/4e6601cb6b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div class="wrapper">
+
+    <i class="fa-regular fa-bell"></i>
+    <div class="container">
+        <div class="head">
+            <h3>Notifications</h3>
+            <span>Mark all as read</span>
+        </div>
+
+        <section>
+            <img src="https://images.unsplash.com/photo-1534308143481-c55f00be8bd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" alt="">
+            <div>
+                <p><b>Paul Waga</b> shared the file <b>Android UI Kit</b> with you.</p>
+                <small>an hour ago</small>
+                <div>
+                    <button>Decline</button>
+                    <button>Accept</button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <img src="https://images.unsplash.com/photo-1506863530036-1efeddceb993?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nzh8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60" alt="">
+            <div>
+                <p><b>Denise Selover</b>made you an editor in the team <b>Power.</b></p>
+                <small>Yesterday</small>
+        </section>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
