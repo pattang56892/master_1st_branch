@@ -1,0 +1,15 @@
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\bin\Debug\net8.0\coreConsoleApplication.exe
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\bin\Debug\net8.0\coreConsoleApplication.deps.json
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\bin\Debug\net8.0\coreConsoleApplication.runtimeconfig.json
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\bin\Debug\net8.0\coreConsoleApplication.dll
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\bin\Debug\net8.0\coreConsoleApplication.pdb
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\obj\Debug\net8.0\coreConsoleApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\obj\Debug\net8.0\coreConsoleApplication.AssemblyInfoInputs.cache
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\obj\Debug\net8.0\coreConsoleApplication.AssemblyInfo.cs
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\obj\Debug\net8.0\coreConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\obj\Debug\net8.0\coreConsoleApplication.sourcelink.json
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\obj\Debug\net8.0\coreConsoleApplication.dll
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\obj\Debug\net8.0\refint\coreConsoleApplication.dll
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\obj\Debug\net8.0\coreConsoleApplication.pdb
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\obj\Debug\net8.0\coreConsoleApplication.genruntimeconfig.cache
+C:\Users\patta\AppData\Local\Microsoft\WindowsApps\PY_3_Master\01_Projects\01_01_Project_Alpha\08_Theta_C#Net\coreConsoleApplication\obj\Debug\net8.0\ref\coreConsoleApplication.dll
