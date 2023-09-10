@@ -16,7 +16,7 @@ app.MapGet("/aFriend", () =>
 
 app.MapGet("/greeting", () =>
 {
-    string greeting = "Hello World!";
+    string greeting = "Hello World - Greeting!";
     return greeting;
 });
 
