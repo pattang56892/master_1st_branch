@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@300;500;700&family=Roboto+Mono:wght@300;400;600;700&family=Rubik+Iso&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Include your JavaScript file after the Tailwind CSS script -->
+    <script src="01_02_JS.js"></script>
+  </head>
+  <body class="bg-slate-100 flex justify-center items-center min-h-screen">
+    <main class="w-full max-w-[24rem] bg-white rounded-lg shadow-xl hover:shadow-slate-400/40 relative main mt-10">
+      <div class="absolute -top-12 right-0 w-10 h-10 rounded-full flex items-center justify-center bg-[#161545] text-white cursor-pointer close">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0M3.124 7.5A8.969 8.969 0 015.292 3m13.416 0a8.969 8.969 0 012.168 4.5" />
+        </svg>
+      </div>
+
+      <section class="section overflow-hidden bg-white py-10 px-6 transition-all duration-500">
+        <div class="flex items-center justify-between">
+          <h1 class="sm:text-lg font-medium">Notifications</h1>
+          <button class="py-2 px-3 rounded-full text-blue-500 bg-slate-100 text-xs mark">
+            Mark all as read
+          </button>
+        </div>
+        <!-- This is where notifications will be added -->
+        <div class="flex flex-col gap-4 mt-8 list"></div>
+        <div class="flex gap-4 pt-6 content-1 border-t-2 border-slate-300">
+          <img src="https://unsplash.com/photos/iEEBWgY_6lA/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8Mnx8dXNlcnxlbnwwfHx8fDE2OTM2NzExNTh8MA&force=true&w=1920" alt="user" class="w-16 h-16 rounded-full object-cover">
+          <div class="mt-4">
+            <h2 class="text-xs font-sans"> <span class="font-medium">Paul Waga</span> shared the file
+                <span>Android UL kIt</span>
+                  with you. </h2>
+                  <span class="text-xs text-slate-400 font-thin mt-4  inline-block">an hour ago</span>
+                    <div class="flex items-center gap-4 mt-4">
+                      <button class="py-3 px-4 rounded-sm text-sm border decline" data-tab="1">Decline</button>
+                        <button class="py-3 px-4 rounded-sm text-sm border text-white bg-[#161545] accept">Accept</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+  </body>
+</html>
