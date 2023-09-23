@@ -11,7 +11,7 @@ star_coordinates = [
     (9, 4)
 ]
 
-# Extract the x and y coordinates separately
+# Extract the x and y coordinates
 x = [coord[0] for coord in star_coordinates]
 y = [coord[1] for coord in star_coordinates]
 
